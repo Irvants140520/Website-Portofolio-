@@ -43,12 +43,6 @@ export default function SplashScreen() {
           <h1 className="text-4xl font-bold gradient-text mb-2">
             Alfredo Akbar
           </h1>
-          <p className="text-gray-600 text-lg">
-            Guru Bahasa Arab
-          </p>
-          <p className="text-sm text-gray-500 mt-1 arabic-text">
-            معلم اللغة العربية
-          </p>
         </div>
 
         {/* Loading Bar */}
