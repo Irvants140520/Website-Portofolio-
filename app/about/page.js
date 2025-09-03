@@ -1,4 +1,3 @@
-// app/about/page.js
 'use client';
 
 import { useEffect } from 'react';
@@ -62,52 +61,17 @@ export default function About() {
                       menempuh pendidikan di Universitas Islam Madinah, salah satu institusi terkemuka 
                       dalam bidang studi Islam dan bahasa Arab.
                     </p>
-                    
                     <p>
                       Selama masa studi, saya tidak hanya mempelajari aspek linguistik bahasa Arab, 
                       tetapi juga mendalami berbagai disiplin ilmu seperti Nahwu, Shorof, dan Balaghoh 
                       yang merupakan fondasi penting dalam memahami teks-teks Arab klasik.
                     </p>
-                    
                     <p>
                       Pengalaman mengajar di International Islamic Boarding School Al Izzah memberikan 
                       saya wawasan praktis tentang metode pengajaran yang efektif dan pemahaman mendalam 
                       tentang tantangan yang dihadapi siswa dalam mempelajari bahasa Arab.
                     </p>
                   </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Call to Action */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="scroll-reveal text-center max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-6 text-gray-800">Mari Belajar Bersama</h2>
-            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Jika Anda tertarik untuk mempelajari bahasa Arab atau ingin berkolaborasi 
-              dalam project terjemahan, saya siap membantu Anda dalam perjalanan ini.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="/contact"
-                className="px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-500 text-white rounded-full font-semibold hover:from-amber-600 hover:to-orange-600 transition-all duration-300 shadow-elegant hover:shadow-xl transform hover:-translate-y-1"
-              >
-                Hubungi Saya
-              </a>
-              <a
-                href="/portfolio"
-                className="px-8 py-4 border-2 border-amber-500 text-amber-600 rounded-full font-semibold hover:bg-amber-50 transition-all duration-300 transform hover:-translate-y-1"
-              >
-                Lihat Portfolio
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-  );
-}
                 </div>
                 
                 <div className="order-1 md:order-2">
@@ -243,3 +207,36 @@ export default function About() {
                 </ul>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Call to Action */}
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="scroll-reveal text-center max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-gray-800">Mari Belajar Bersama</h2>
+            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+              Jika Anda tertarik untuk mempelajari bahasa Arab atau ingin berkolaborasi 
+              dalam project terjemahan, saya siap membantu Anda dalam perjalanan ini.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="/contact"
+                className="px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-500 text-white rounded-full font-semibold hover:from-amber-600 hover:to-orange-600 transition-all duration-300 shadow-elegant hover:shadow-xl transform hover:-translate-y-1"
+              >
+                Hubungi Saya
+              </a>
+              <a
+                href="/portfolio"
+                className="px-8 py-4 border-2 border-amber-500 text-amber-600 rounded-full font-semibold hover:bg-amber-50 transition-all duration-300 transform hover:-translate-y-1"
+              >
+                Lihat Portfolio
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
